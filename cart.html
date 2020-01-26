@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cart</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/ionicons.min.css">
+    <link rel="stylesheet" href="styles/animate.css">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="nav sleep">
+            <div class="container">
+                <div class="nav-inner flex-between">
+                    <a class="nav-brand color--green" href="index.html">vegefoods</a>
+                    <a href="#" class="nav-toggle c-dark" id="toggle">
+                        <img src="images/menu.png" alt="menu">
+                    </a>
+                    <ul class="nav-list">
+                        <li><a href="index.html">home</a></li>
+                        <li class="dropdown"><a class="link" href="#" aria-expanded="true">shop</a>
+                            <div class="dropdown-menu">
+                                <a href="#">sidebar shop</a>
+                                <a href="#">shop detail</a>
+                                <a href="cart.html">cart</a>
+                                <a href="#">checkout</a>
+                                <a href="#">my account</a>
+                                <a href="">wishlist</a>
+                            </div>
+                        </li>
+                        <li><a href="#">about</a></li>
+                        <li><a href="#">blog</a></li>
+                        <li><a href="#">contact</a></li>
+                        <li><a href="cart.html" class="bag">
+                                <span><i class="icon ion-md-cart"></i></span>
+                                <span class="cart-count">(0)</span>
+                            </a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="hero hero-cart">
+        <div class="hero-slider">
+            <div class="hero-slide" id="heroslide3">
+                <div class="hero-slide__body flex-center text-align--center color--white wow slideInUp">
+                    <h1>My Cart</h1>
+                </div>
+                <div class="hero-slide__image"></div>
+            </div>
+        </div>
+    </section>
+    <section class="cart padding">
+        <div class="container">
+            <div class="cart-content wow zoomIn">
+                <table class="cart-table table-empty" id="cart-table">
+                    <thead>
+                        <tr>
+                            <th>&nbsp;</th>
+                            <th>&nbsp;</th>
+                            <th>Product name</th>
+                            <th>Price</th>
+                            <th>Quantity</th>
+                            <th>Total</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+                <div class="cart-empty">
+                    <p>Your cart is currently empty.</p>
+                    <button class="btn"><a href="index.html">Continue Shopping</a></button>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section class="order">
+        <div class="container flex-between">
+            <div class="order-coupon wow fadeInLeft">
+                <div class="input-group">
+                    <input type="text" placeholder="Enter your coupon code">
+                    <button class="btn-green btn">Apply Coupon</button>
+                </div>
+            </div>
+            <div class="order-checkout wow fadeInRight">
+                <div class="checkout-cart">
+                    <h2>Order Summary</h2>
+                    <p>
+                        <span>Subtotal</span>
+                        <span>$20.60</span>
+                    </p>
+                    <p>
+                        <span>Delivery</span>
+                        <span>$0.00</span>
+                    </p>
+                    <hr>
+                    <p class="total-price">
+                        <span>Total</span>
+                        <span>$17.60</span>
+                    </p>
+                </div>
+                <button class="btn-green btn">Proceed to Checkout</button>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-inner flex-between color--white wow bounceInRight">
+                <div class="footer-box">
+                    <h3>Business Time</h3>
+                    <ul>
+                        <li>Monday - Friday: 08.00am to 05.00pm</li>
+                        <li>Saturday: 10.00am to 08.00pm</li>
+                        <li>Sunday: Closed</li>
+                    </ul>
+                </div>
+                <div class="footer-box newsletter">
+                    <h3>Newsletter</h3>
+                    <form class="footer-form">
+                        <input type="email" name="Email" placeholder="Email Address*">
+                        <i class="icon ion-md-mail"></i>
+                        <button class="btn" type="submit">Submit</button>
+                    </form>
+                </div>
+                <div class="footer-box social">
+                    <h3>Social Media</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <ul class="footer-social">
+                        <li><a href="#"><i class="icon ion-logo-facebook"></i></a></li>
+                        <li><a href="#"><i class="icon ion-md-egg"></i></a></li>
+                        <li><a href="#"><i class="icon ion-logo-instagram"></i></a></li>
+                        <li><a href="#"><i class="icon ion-logo-googleplus"></i></a></li>
+                        <li><a href="#"><i class="icon ion-logo-rss"></i></a></li>
+                        <li><a href="#"><i class="icon ion-logo-pinterest"></i></a></li>
+                        <li><a href="#"><i class="icon ion-logo-whatsapp"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div id="ftco-loader" class="fullscreen show"><svg class="circular" width="48px" height="48px">
+            <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"></circle>
+            <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
+                stroke="#F96D00"></circle>
+        </svg></div>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/contentful@latest/dist/contentful.browser.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/wow.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/card.js"></script>
+</body>
+
+</html>

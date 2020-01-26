@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700&display=swap" rel="stylesheet">
+    <link rel="prefetch" href="images/bg-1.jpg">
+    <link rel="stylesheet" href="styles/animate.css">
+    <link rel="stylesheet" href="styles/ionicons.min.css">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="nav sleep">
+            <div class="container">
+                <div class="nav-inner flex-between">
+                    <a class="nav-brand color--green" href="index.html">vegefoods</a>
+                    <a href="#" class="nav-toggle c-dark" id="toggle">
+                        <img src="images/menu.png" alt="menu">
+                    </a>
+                    <ul class="nav-list">
+                        <li><a href="index.html">home</a></li>
+                        <li class="dropdown"><a class="link" href="#" aria-expanded="true">shop</a>
+                            <div class="dropdown-menu">
+                                <a href="#">sidebar shop</a>
+                                <a href="#">shop detail</a>
+                                <a href="cart.html">cart</a>
+                                <a href="#">checkout</a>
+                                <a href="#">my account</a>
+                                <a href="">wishlist</a>
+                            </div>
+                        </li>
+                        <li><a href="#">about</a></li>
+                        <li><a href="#">blog</a></li>
+                        <li><a href="#">contact</a></li>
+                        <li><a href="cart.html" class="bag">
+                                <i class="icon ion-md-cart"></i>
+                                <span class="cart-count">(0)</span>
+                            </a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="hero-slider">
+            <div class="hero-slide" id="heroslide1">
+                <div class="hero-overlay"></div>
+                <div class="hero-slide__body flex-center text-align--center color--white wow slideInUp">
+                    <h1>Welcome To Vegefoods</h1>
+                    <ion-icon name="cart"></ion-icon>
+                    <h5>We deliver organic vegetables &amp; fruits</h5>
+                    <button class="btn">View Details</button>
+                </div>
+                <div class="hero-slide__image"></div>
+            </div>
+            <div class="hero-slide" id="heroslide2">
+                <div class="hero-overlay"></div>
+                <div class="hero-slide__body flex-center text-align--center color--white">
+                    <h1>Welcome To Vegefoods</h1>
+                    <h5>We deliver organic vegetables &amp; fruits</h5>
+                    <button class="btn">View Details</button>
+                </div>
+                <div class="hero-slide__image"></div>
+            </div>
+        </div>
+    </section>
+    <section class="products padding">
+        <div class=" container">
+            <div class="products-heading text-align--center">
+                <h1>Fruits & Vegetables</h1>
+                <p class="color--grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet lacus enim.
+                </p>
+            </div>
+            <div class="products-menu text-align--center">
+                <div class="products-btns">
+                    <button class="btn active" data-filter="vegetable">Vegetables</button>
+                    <button class="btn" data-filter="fruit">Fruits</button>
+                    <button class="btn" data-filter="best-seller">Best seller</button>
+                </div>
+            </div>
+            <div class="products-list wow slideInUp" data-wow-duration="3000"></div>
+        </div>
+    </section>
+    <section class="deal text-align--center wow zoomIn">
+        <div class="container">
+            <div class="deal-content">
+                <span class="subtitle color--green">Best Price For You</span>
+                <h1 class="title">Deal of the day</h1>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+                <h2 class="fruit color--green">Grapes</h2>
+                <span class="price">$120 <a class="color--green" href="#">now $90 only</a></span>
+                <div id="timer" class="timer">
+                    <div class="time" id="days">-18<span>Days</span></div>
+                    <div class="time" id="hours">10<span>Hours</span></div>
+                    <div class="time" id="minutes">34<span>Minutes</span></div>
+                    <div class="time" id="seconds">46<span>Seconds</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="blog text-align--center padding">
+        <div class="container">
+            <div class="blog-heading">
+                <h1>Latest Blog</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum, impedit!</p>
+            </div>
+            <div class="blog-boxes flex-between">
+                <div class="blog-box wow zoomIn">
+                    <div class="blog-box__image">
+                        <img src="images/box1.jpg" alt="blog">
+                    </div>
+                    <div class="blog-box__content">
+                        <h3>Fusce in augue non nisi fringilla</h3>
+                        <p>Nulla ut urna egestas, porta libero id, suscipit orci. Quisque in lectus sit amet urna
+                            dignissim feugiat. Mauris molestie egestas pharetra. Ut finibus cursus nunc sed mollis.
+                            Praesent laoreet lacinia elit id lobortis.</p>
+                        <ul>
+                            <li><a href="#"><i class="icon ion-md-heart"></i></a></li>
+                            <li><a href="#"><i class="icon ion-md-eye"></i></a></li>
+                            <li><a href="#"><i class="icon ion-md-chatboxes"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="blog-box wow zoomIn">
+                    <div class="blog-box__image">
+                        <img src="images/box2.jpg" alt="blog">
+                    </div>
+                    <div class="blog-box__content">
+                        <h3>Fusce in augue non nisi fringilla</h3>
+                        <p>Nulla ut urna egestas, porta libero id, suscipit orci. Quisque in lectus sit amet urna
+                            dignissim feugiat. Mauris molestie egestas pharetra. Ut finibus cursus nunc sed mollis.
+                            Praesent laoreet lacinia elit id lobortis.</p>
+                        <ul>
+                            <li><a href="#"><i class="icon ion-md-heart"></i></a></li>
+                            <li><a href="#"><i class="icon ion-md-eye"></i></a></li>
+                            <li><a href="#"><i class="icon ion-md-chatboxes"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="blog-box wow zoomIn">
+                    <div class="blog-box__image">
+                        <img src="images/box3.jpg" alt="blog">
+                    </div>
+                    <div class="blog-box__content">
+                        <h3>Fusce in augue non nisi fringilla</h3>
+                        <p>Nulla ut urna egestas, porta libero id, suscipit orci. Quisque in lectus sit amet urna
+                            dignissim feugiat. Mauris molestie egestas pharetra. Ut finibus cursus nunc sed mollis.
+                            Praesent laoreet lacinia elit id lobortis.</p>
+                        <ul>
+                            <li><a href="#"><i class="icon ion-md-heart"></i></a></li>
+                            <li><a href="#"><i class="icon ion-md-eye"></i></a></li>
+                            <li><a href="#"><i class="icon ion-md-chatboxes"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-inner flex-between color--white wow bounceInRight">
+                <div class="footer-box">
+                    <h3>Business Time</h3>
+                    <ul>
+                        <li>Monday - Friday: 08.00am to 05.00pm</li>
+                        <li>Saturday: 10.00am to 08.00pm</li>
+                        <li>Sunday: Closed</li>
+                    </ul>
+                </div>
+                <div class="footer-box newsletter">
+                    <h3>Newsletter</h3>
+                    <form class="footer-form">
+                        <input type="email" name="Email" placeholder="Email Address*">
+                        <i class="icon ion-md-mail"></i>
+                        <button class="btn" type="submit">Submit</button>
+                    </form>
+                </div>
+                <div class="footer-box social">
+                    <h3>Social Media</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <ul class="footer-social">
+                        <li><a href="#"><i class="icon ion-logo-facebook"></i></a></li>
+                        <li><a href="#"><i class="icon ion-md-egg"></i></a></li>
+                        <li><a href="#"><i class="icon ion-logo-instagram"></i></a></li>
+                        <li><a href="#"><i class="icon ion-logo-googleplus"></i></a></li>
+                        <li><a href="#"><i class="icon ion-logo-rss"></i></a></li>
+                        <li><a href="#"><i class="icon ion-logo-pinterest"></i></a></li>
+                        <li><a href="#"><i class="icon ion-logo-whatsapp"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div id="ftco-loader" class="fullscreen show"><svg class="circular" width="48px" height="48px">
+            <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"></circle>
+            <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
+                stroke="#F96D00"></circle>
+        </svg></div>
+</body>
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/contentful@latest/dist/contentful.browser.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/wow.js"></script>
+<script src="js/jquery.js"></script>
+<script src="js/home.js"></script>
+
+</html>
